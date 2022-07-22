@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="SO03H"
+          fetch="https://github.com/Sony-SO03H-test/android_device_sony_kitakami-common"
+          revision="lineage-19.1"
+           />
+
+  <project path="device/sony/satsuki" name="android_device_sony_satsuki" remote="SO03H" />
+
+  <project path="device/sony/kitakami-common" name="android_device_sony_kitakami-common" remote="SO03H" />
+
+  <project path="kernel/sony/msm8994" name="android_kernel_sony_msm8994" remote="SO03H" />
+
+  <project path="vendir/sony" name="proprietary_vendor_sony" remote="SO03H" />
+
+  <project path="vendir/sony/kitakami-common-extras" name="proprietary_vendor_sony_extras" remote="SO03H" />
+
+
+</manifest>
